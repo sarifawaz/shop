@@ -1,0 +1,56 @@
+body{
+    margin-top:20px;
+}
+img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+main{
+    margin-top: 10px;
+}
+
+#cat{
+    width: 80%;
+}
+#cat a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(107, 107, 107); 
+}
+#cat a:hover{
+    color: black;
+}
+#card-group {
+    height: auto;
+}
+
+#card a{
+    text-decoration: none;
+}
+
+#signcart a{
+    text-decoration: none;
+    color: white;
+}
+
+#signcart a:hover{
+    color: rgb(179, 179, 179);
+}
+
+#custom{
+    border-top: 1px solid black;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#custom a{
+    color: black;
+}
+
+.row{
+    justify-content: space-between
+}
